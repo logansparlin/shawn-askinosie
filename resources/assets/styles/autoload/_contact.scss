@@ -1,0 +1,122 @@
+.contact-page-content {
+  background: $yellow;
+  overflow: hidden;
+  p {
+    padding: 20px 0;
+    color: $black;
+    a {
+      color: $black;
+      text-decoration: underline;
+    }
+  }
+}
+
+#contact-form-143 {
+  background: white;
+  background: white;
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.2);
+  padding: 50px;
+
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .input-group, form > div {
+    width: 100%;
+    margin-bottom: 40px;
+    position: relative;
+    cursor: auto;
+    label {
+      position: relative;
+      font-weight: normal;
+      margin-bottom: 0;
+      font-family: $gt-cinetype;
+      color: $black;
+      font-size: 14px;
+      pointer-events: none;
+      user-select: none;
+    }
+
+    input, textarea {
+      border: none;
+      outline: none;
+      font-size: 18px;
+      padding: 12px;
+      width: 100%;
+      font-family: $gt-eesti;
+      margin-bottom: 0;
+    }
+
+    input {
+      padding: 12px 0;
+      border-bottom: 2px solid $black;
+    }
+
+    textarea {
+      background: #f5f5f5;
+      resize: none;
+      height: 300px;
+      margin-top: 16px;
+    }
+
+    &.half, &:nth-of-type(1), &:nth-of-type(2) {
+      width: 48%;
+    }
+
+    &.textarea {
+      label {
+        position: relative;
+        transform: none;
+        display: block;
+      }
+    }
+  }
+
+  .button-container, .contact-submit {
+    text-align: center;
+    width: 100%;
+  }
+
+  button, input[type="submit"] {
+    background: $blue;
+    color: white;
+    padding: 18px 40px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    font-family: $gt-cinetype;
+    letter-spacing: 1px;
+  }
+
+  .form-footer {
+    margin-top: 40px;
+    text-align: center;
+    p, a {
+      text-align: center;
+      color: $black;
+      font-size: 18px;
+    }
+    a {
+      text-decoration: underline;
+    }
+  }
+
+  h3 {
+    font-family: $gt-cinetype;
+  }
+
+  .contact-form-submission {
+    margin: 0;
+    padding: 0;
+    padding-top: 40px;
+    border-left: 0;
+    p {
+      color: $black;
+      font-family: $gt-cinetype;
+      padding: 0;
+    }
+  }
+}

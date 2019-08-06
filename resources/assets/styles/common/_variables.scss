@@ -1,0 +1,28 @@
+/** Colors */
+$yellow:         #ffd662;
+$black:          #222222;
+$medium-grey:    #949494;
+$blue:           #4295E1;
+
+/** Box Model  */
+$spacer:                2rem;
+
+/** Fonts */
+$gt-cinetype: 'gt-cinetype', Helvetica, sans-serif;
+$gt-super: 'gt-super', serif;
+$gt-eesti: 'gt-eesti', Helvetica, sans-serif;
+
+/**
+ * Media Queries
+*/
+@mixin small {
+  @media (max-width: 599px) { @content; }
+}
+
+@mixin medium {
+  @media (max-width: 1079px) { @content; }
+}
+
+@mixin large {
+  @media (min-width: 1080px) { @content; }
+}

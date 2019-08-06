@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, span, div {
+  font-family: $gt-cinetype;
+  margin: 0;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+a {
+  text-decoration: none;
+  color: $blue;
+}
+
+blockquote {
+  margin-left: 0;
+  padding-left: 40px;
+  border-left: 4px solid $yellow;
+  margin: 40px 0;
+  p {
+    color: $black!important;
+  }
+  cite {
+    color: $medium-grey;
+    &:before {
+      content: '- ';
+    }
+  }
+}
+
+p {
+  font-family: $gt-eesti;
+  letter-spacing: 1px;
+  line-height: 1.8em;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gt-cinetype {
+  font-family: $gt-cinetype;
+}
+.gt-super {
+  font-family: $gt-super;
+}
+.gt-eesti {
+  font-family: $gt-eesti;
+}
+
+.padding-bottom-0 {
+  padding-bottom: 0;
+}
+
+.padding-top-0 {
+  padding-top: 0;
+}
+
+.sd-sharing, #jp-relatedposts, .posts-navigation {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+main {
+  // h1, h2, h3, h4, h5, h6, p, blockquote {
+  //   max-width: 960px;
+  //   margin: 24px auto;
+  // }
+  p {
+    color: $medium-grey;
+  }
+}
+
+.menu--open {
+  overflow: hidden;
+}
+
+* {
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-links {
+  text-align: center;
+  & > div {
+    padding: 0 10px;
+    display: inline-block;
+    a {
+      text-decoration: underline;
+    }
+  }
+}
