@@ -7,6 +7,14 @@
     }
   }
 
+  .post-content {
+    max-width: 800px;
+    margin: 0 auto;
+    & > * {
+      margin-bottom: 24px;
+    }
+  }
+
   // figure {
   //   width: 100%;
   //   margin: 0 auto;
